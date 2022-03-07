@@ -1,0 +1,99 @@
+@font-face {
+    font-family: outfit;
+    src: url(/assets/Outfit-VariableFont_wght.ttf);
+}
+
+
+body{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: outfit;
+    background-color: hsl(217, 54%, 11%);
+}
+
+.contenair{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(216, 50%, 16%);
+    height: 540px;
+    width: 300px;
+    border-radius: 10px;
+          
+}
+
+
+.logo img{
+    height: 250px;
+    margin: 20px 10px 0 25px;
+    border-radius: 5px;
+}
+h1{
+    color: hsl(0, 0%, 100%);
+    font-size: 20px;
+    font-weight: lighter;
+    margin-left: 25px;
+    
+}
+
+.p{
+    font-size: 18px;
+    color:hsl(215, 51%, 70%);
+    width: fit-content;
+    margin-left: 25px;
+    opacity: 0.5;
+}
+
+.middle{
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 250px;
+    display: grid;
+    grid-template-columns: 15px 3fr 25px 2fr;
+    opacity: 0.9;
+    
+}
+
+#value{
+    color: hsl(178, 100%, 50%);
+}
+
+#daysvalue{
+    color: hsl(215, 51%, 70%);
+} 
+
+hr{
+    margin-top: 20px;
+    opacity: 0.1;
+    width: 250px;
+}
+
+.foot{
+    margin-left: 25px;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: light;  
+    
+
+}
+
+.avatar img{
+    width: 30px;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 50px;
+}
+.foot p{
+    margin-left: 15px;
+    color: hsl(215, 51%, 70%);
+    font-size: 14px;
+    opacity: 0.6;
+}
+
+.foot span{
+    color:hsl(0, 0%, 100%);
+    
+}
