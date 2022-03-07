@@ -11,6 +11,7 @@ body{
     align-items: center;
     font-family: outfit;
     background-color: hsl(217, 54%, 11%);
+    overflow: hidden;
 }
 
 .contenair{
